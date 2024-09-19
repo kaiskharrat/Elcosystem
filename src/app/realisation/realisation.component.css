@@ -1,0 +1,58 @@
+.container {
+    padding-top: 20px;
+    padding-bottom: 80px;
+  }
+  
+  .realisation-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .realisation-card h5 {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .realisation-images {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  .realisation-images img {
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  .realisation-images img.before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .realisation-images img.after {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    transition: opacity 0.5s ease;
+  }
+  
+  .realisation-card:hover .realisation-images img.after {
+    opacity: 1;
+  }
+  
+  p.text-center {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  

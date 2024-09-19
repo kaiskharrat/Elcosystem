@@ -1,0 +1,109 @@
+
+/* Styliser le formulaire pour un look moderne */
+.modern-form {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 2px 5px rgba(56, 56, 56, 0.1);
+    margin-bottom: 50px;
+  }
+  
+  /* Style pour les champs de formulaire */
+  .modern-form .form-control {
+    border: 1px solid #ced4da;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .modern-form .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  /* Style pour le bouton */
+  .modern-form button[type="submit"] {
+    background-color: #007bff;
+    border-color: #007bff;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+    padding: 0.75rem;
+  }
+  
+  .modern-form button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style pour le label */
+  .modern-form .form-label {
+    font-weight: bold;
+    color: #333;
+  }
+  .text-danger {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  .text-center h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+  
+  .text-center p.lead {
+    font-size: 1.2rem;
+    font-weight: normal;
+  }
+  
+  a img {
+    transition: transform 0.3s;
+  }
+  
+  a:hover img {
+    transform: scale(1.1);  /* Agrandir légèrement l'icône au survol */
+  }
+ /* Styles pour la section de contact */
+.contact-info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+/* Style des icônes */
+.contact-icon {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* Style des liens sociaux */
+.social-link a {
+  font-size: 1.1rem;
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-link a:hover {
+  color: #0056b3; /* Couleur au survol */
+}
+
+/* Style des informations de contact */
+.contact-details p {
+  font-size: 1.1rem;
+  color: #007bff;
+}
+
+.contact-details a {
+  color: #010202;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  color: #007bff;
+}
